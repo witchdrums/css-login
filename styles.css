@@ -19,10 +19,11 @@ body{
     right: 0;
     padding: 0.15rem 1rem;
     color: white;
-    background-color: #198754;
+    background-color: #623ebd;
     display: inline-block;
     text-decoration: none;
     font-size: 0.875rem;
+    border-radius: 0 0 0 20px;
 }
 
 .contenedor-grid {
@@ -81,7 +82,10 @@ body{
 
 @media (max-width: 768px){
     .lado-izquierdo {
-        display: none;
+        grid-column: 1 / span 2 ;
+        object-fit: fill;
+        height: 50vh;
+        min-height: 100px;
     }
     .lado-derecho{
         margin-top: 50px;
