@@ -80,11 +80,13 @@ body{
     align-items: end;
 }
 
+
+
 @media (max-width: 768px){
     .lado-izquierdo {
         grid-column: 1 / span 2 ;
         object-fit: fill;
-        height: 50vh;
+        height: 30vh;
         min-height: 100px;
     }
     .lado-derecho{
