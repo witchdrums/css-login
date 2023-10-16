@@ -19,7 +19,7 @@ body{
     right: 0;
     padding: 0.15rem 1rem;
     color: white;
-    background-color: #623ebd;
+    background-color: #198754;
     display: inline-block;
     text-decoration: none;
     font-size: 0.875rem;
@@ -84,10 +84,7 @@ body{
 
 @media (max-width: 768px){
     .lado-izquierdo {
-        grid-column: 1 / span 2 ;
-        object-fit: fill;
-        height: 30vh;
-        min-height: 100px;
+        display: none;
     }
     .lado-derecho{
         margin-top: 50px;
